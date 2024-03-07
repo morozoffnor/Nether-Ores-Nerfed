@@ -49,14 +49,14 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> netherRedstoneOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, NetherOresBlocks.Nether_Redstone_Ore.getDefaultState()));
 
-        register(context, Nether_Coal_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherCoalOres, 10));
-        register(context, Nether_Copper_KEY, Feature.ORE, new OreFeatureConfig(netherCopperOres, 8));
-        register(context, Nether_Diamond_KEY, Feature.ORE, new OreFeatureConfig(netherDiamondOres, 8));
-        register(context, Nether_Emerald_KEY, Feature.ORE, new OreFeatureConfig(netherEmeraldOres, 3));
-        register(context, Nether_Gold_KEY, Feature.ORE, new OreFeatureConfig(netherGoldOres, 8));
-        register(context, Nether_Iron_KEY, Feature.ORE, new OreFeatureConfig(netherIronOres, 8));
-        register(context, Nether_Lapis_KEY, Feature.ORE, new OreFeatureConfig(netherLapisOres, 8));
-        register(context, Nether_Redstone_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherRedstoneOres, 8));
+        register(context, Nether_Coal_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherCoalOres, 1));
+        register(context, Nether_Copper_KEY, Feature.ORE, new OreFeatureConfig(netherCopperOres, 1));
+        register(context, Nether_Diamond_KEY, Feature.ORE, new OreFeatureConfig(netherDiamondOres, 1));
+        register(context, Nether_Emerald_KEY, Feature.ORE, new OreFeatureConfig(netherEmeraldOres, 1));
+        register(context, Nether_Gold_KEY, Feature.ORE, new OreFeatureConfig(netherGoldOres, 1));
+        register(context, Nether_Iron_KEY, Feature.ORE, new OreFeatureConfig(netherIronOres, 1));
+        register(context, Nether_Lapis_KEY, Feature.ORE, new OreFeatureConfig(netherLapisOres, 1));
+        register(context, Nether_Redstone_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherRedstoneOres, 1));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

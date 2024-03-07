@@ -27,35 +27,35 @@ public class ModPlacedFeatures {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, Coal_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.Nether_Coal_ORE_KEY),
-                modifiersWithCount(40, // Veins per Chunk
+                modifiersWithCount(1, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(256))));
 
         register(context,Nether_Copper_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.Nether_Copper_KEY),
-                modifiersWithCount(32, // Veins per Chunk
+                modifiersWithCount(1, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(256))));
 
         register(context, Nether_Diamond_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.Nether_Diamond_KEY),
-                modifiersWithCount(17, // Veins per Chunk
+                modifiersWithCount(1, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(256))));
 
         register(context, Nether_Emerald_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.Nether_Emerald_KEY),
-                modifiersWithCount(17, // Veins per Chunk
+                modifiersWithCount(1, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(256))));
 
         register(context, Nether_Gold_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.Nether_Gold_KEY),
-                modifiersWithCount(20, // Veins per Chunk
+                modifiersWithCount(1, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(256))));
 
         register(context, Nether_Iron_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures. Nether_Iron_KEY),
-                modifiersWithCount(32, // Veins per Chunk
+                modifiersWithCount(1, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(256))));
 
         register(context, Nether_Lapis_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.Nether_Lapis_KEY),
-                modifiersWithCount(25, // Veins per Chunk
+                modifiersWithCount(1, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(256))));
 
         register(context, Nether_Redstone_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.Nether_Redstone_ORE_KEY),
-                modifiersWithCount(20, // Veins per Chunk
+                modifiersWithCount(1, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(256))));
     }
 
